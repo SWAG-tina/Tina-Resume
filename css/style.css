@@ -1,0 +1,160 @@
+body {
+  background-color: #E0F7FA;
+}
+
+.page {
+  min-height: 100vh;
+}
+
+/* banner */
+
+.banner {
+  padding: 10px 0 20px 0;
+  color: #E0F7FA;
+
+  /* http://lea.verou.me/css3patterns/#argyle */
+  background-color: #006064;
+  background-image:
+  repeating-linear-gradient(120deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+  repeating-linear-gradient(60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+  linear-gradient(60deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)),
+  linear-gradient(120deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1));
+  background-size: 70px 120px;
+}
+
+.banner-grid {
+  margin: 100px 0 0 0;
+  padding: 15px 0;
+  background: #00838F;
+}
+
+.banner-left-info-title {
+  margin: 20px 27px;
+  font-size: 35px;
+  color: #B2EBF2;
+}
+
+.banner-left-info {
+  margin: 5px 27px;
+  border-bottom: dashed 1px #B2EBF2;
+}
+
+.banner-left-info:last-child {
+  border-bottom: none;
+}
+
+.banner-left-info h4 {
+  color: #E0F7FA;
+}
+
+.banner-left-info p {
+  color: #B2EBF2;
+}
+
+.banner-right-info {
+  margin: 10px 15px;
+}
+
+.banner-right-info h3 {
+  color: #E0F7FA;
+}
+
+.head-img {
+  float: left;
+  margin: 45px 15px 15px 0;
+}
+
+.skills {
+  margin: 0 0 0 200px;
+}
+
+/* my projects */
+
+.my-projects {
+  background-color: #E0F7FA;
+}
+
+.my-projects h2 {
+  margin: 40px 0 60px 0;
+  text-align: center;
+  color: #006064;
+}
+
+.my-project {
+  text-align: center;
+  margin: 10px 0 60px 0;
+}
+
+.proName {
+  text-align: center;
+}
+
+
+.weather {
+  margin: 10px;
+  align-content: center;
+}
+
+.skill-bar {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.progress {
+  background-color: #E0F2F1;
+}
+
+.progress-bar {
+  background-color: #00695C;
+}
+
+.projects {
+  text-align: center;
+}
+
+.site-footer {
+  text-align: center;
+  background-color: #80DEEA;
+  color: #00838F;
+  margin-top: 30px;
+  padding: 20px 0;
+
+  background-color: #80DEEA;
+  background-image:
+  repeating-linear-gradient(120deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+  repeating-linear-gradient(60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+  linear-gradient(60deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)),
+  linear-gradient(120deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1));
+  background-size: 70px 120px;
+}
+
+/* misc */
+
+.icon-arrow-down {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  width: 30px;
+  height: 30px;
+  border-right: solid 1px #80DEEA;
+  border-bottom: solid 1px #80DEEA;
+  
+  transform: translateX(-50%) rotate(45deg);
+
+  animation-duration: 1s;
+  animation-name: arrowanim;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+/* animation */
+
+@keyframes arrowanim {
+  from {
+    bottom: 50px;
+  }
+
+  to {
+    bottom: 30px;
+  }
+}
