@@ -130,21 +130,20 @@ body {
 
 /* misc */
 
-.icon-arrow-down {
+#icon-arrow-down {
   position: absolute;
   bottom: 50px;
-  left: 50%;
+  height: 30px;
+  width: 100%;
+}
+#icon-arrow-down a {
+  display: block;
+  margin: 0 auto;
   width: 30px;
   height: 30px;
   border-right: solid 1px #80DEEA;
   border-bottom: solid 1px #80DEEA;
-  
   transform: translateX(-50%) rotate(45deg);
-
-  animation-duration: 1s;
-  animation-name: arrowanim;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
 }
 
 /* animation */
